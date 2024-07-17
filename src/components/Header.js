@@ -11,7 +11,7 @@ export default function Header() {
 
         </a>
         <nav className="hidden md:flex gap-x-8 text-sm font-semibold">
-          <button className="bg-brand-yellow h-8 w-20 flex items-center justify-center rounded-md  text-sm font-semibold text-primary-brand-color transition-colors hover:text-brand-yellow hover:bg-tertiary-brand-color">
+          {/* <button className="bg-brand-yellow h-8 w-20 flex items-center justify-center rounded-md  text-sm font-semibold text-primary-brand-color transition-colors hover:text-brand-yellow hover:bg-tertiary-brand-color">
           <Link to={"/admin"}>
              <a
               href="#"
@@ -19,7 +19,7 @@ export default function Header() {
               Admin
             </a>
           </Link>
-          </button>
+          </button> */}
           <a
             href="#"
             className="flex items-center gap-x-2 text-white transition-all text-opacity-80 hover:text-opacity-100"
