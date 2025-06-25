@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# TatlımıGetir (Getir Clone) 👩‍💻
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a clone of the Getir website, created using React. The website is designed to replicate the popular grocery delivery service's interface with modern web technologies. Below is a brief overview of the project, its features, and how to get started.
 
-## Available Scripts
+## Features 
 
-In the project directory, you can run:
+- **Responsive Design**: The website is fully responsive and adapts to different screen sizes, making it mobile-friendly.
+- **React Components**: Built with reusable React components for maintainable and scalable code.
+- **Modern UI/UX**: Faithful recreation of Getir's user interface with smooth interactions and animations.
+- **Product Catalog**: Interactive product browsing experience similar to the original Getir platform.
+- **Shopping Cart Functionality**: Add and remove items from cart with real-time updates.
 
-### `yarn start`
+## Getting Started
+To get a local copy up and running, follow these simple steps.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prerequisites
+Make sure you have the following installed:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Node.js](https://nodejs.org/en)
+- npm or yarn package manager
 
-### `yarn test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/betuloran/TatlimiGetir.git
+    ```
+2. **Navigate to the project directory**:
+    ```bash
+    cd TatlimiGetir
+    ```
+3. **Install dependencies:**.
+    ```bash
+    npm install
+    ```
 
-### `yarn build`
+## Development Server
+To run the app in development mode:
+ ```bash
+    npm start
+ ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open http://localhost:3000 to view it in your browser. The page will reload when you make changes and you may also see any lint errors in the console.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Production Build
+To build the app for production:
+```bash
+    npm run build
+ ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is created for educational purposes and is inspired by Getir's design.
